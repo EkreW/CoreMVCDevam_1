@@ -1,0 +1,11 @@
+﻿<h1>Çarpım tablosu</h1>
+<hr />
+@for (int i = 1; i <= 10; i++)
+{
+    for (int k = 1; k <= 10; k++)
+    {
+        string sonuc = $"{i} x {k} = {i * k}";
+        <b><p>@sonuc</p></b>
+    }
+    <hr />
+}
